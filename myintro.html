@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Further material &#8212; Maths Refresher</title>
+    <title>Introduction &#8212; Maths Refresher</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
@@ -39,7 +39,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Solution to quizzes" href="Solutions.html" />
+    <link rel="next" title="Functions, exponential and logarithm rules" href="mr1_functions.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -74,12 +74,12 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="myintro.html">
+  <a class="reference internal" href="#">
    Introduction
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="mr1_functions.html">
    Functions, exponential and logarithm rules
@@ -185,8 +185,8 @@
    Solution to quizzes
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mr_reading.html">
    Further material
   </a>
  </li>
@@ -232,7 +232,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/mr_reading.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="_sources/myintro.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -256,7 +256,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/StatsFizz/Maths_Refresher/master?urlpath=tree/mr_reading.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/StatsFizz/Maths_Refresher/master?urlpath=tree/myintro.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -278,13 +278,13 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#functions-and-calculus">
-   Functions and calculus
+  <a class="reference internal nav-link" href="#acknowledgements">
+   Acknowledgements
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#matrices">
-   Matrices
+  <a class="reference internal nav-link" href="#typos-corrections-and-questions">
+   Typos, corrections and questions
   </a>
  </li>
 </ul>
@@ -297,32 +297,20 @@
         
               <div>
                 
-  <div class="section" id="further-material">
-<h1>Further material<a class="headerlink" href="#further-material" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="functions-and-calculus">
-<h2>Functions and calculus<a class="headerlink" href="#functions-and-calculus" title="Permalink to this headline">¶</a></h2>
-<p>Some potentially useful websites are listed below.</p>
-<ol class="simple">
-<li><p>The first website contains nice explanations of differentiation and integration.</p></li>
-</ol>
-<p><a class="reference external" href="https://revisionmaths.com/advanced-level-level-maths-revision">https://revisionmaths.com/advanced-level-level-maths-revision</a></p>
-<ol class="simple">
-<li><p>This next site contains additional exercises on differentiation and other topics which may be useful.</p></li>
-</ol>
-<p><a class="reference external" href="http://www.univie.ac.at/future.media/moe/tests.html">http://www.univie.ac.at/future.media/moe/tests.html</a></p>
-<p>Some useful books are listed below.</p>
-<ol class="simple">
-<li><p>This book contains introductory chapters on basic algebra so it covers most relevant material (but it has no material on matrices).</p></li>
-</ol>
-<p>Quick Calculus 2nd Edition: A self-teaching guide by Kleppner <span class="math notranslate nohighlight">\(\&amp;\)</span> Ramsey; published by Wiley.</p>
-<ol class="simple">
-<li><p>This book is more expensive but thorough.</p></li>
-</ol>
-<p>Engineering Mathematics by K.A.Stroud and Dexter J. Booth. Published by Palgrave. 7th Edition.</p>
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>This document contains a brief refresher on key mathematics and statistics topics. It is intended for the use of students taking the MSc in Health Data Science at the London School of Hygiene and Tropical Medicine.</p>
+<div class="section" id="acknowledgements">
+<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">¶</a></h2>
+<p>This document is based on notes created for the MSc in Medical Statistics, London School of Hygiene and Tropical Medicine.</p>
+<p>Many people have contributed to this document over time, including a large number of previous and current members of the Department of Medical Statistics at the London School of Hygiene and Tropical Medicine. In particular, we would like to acknowledge contributions from Ian White who created much of this material, and from Vera Mann, Dan Altmann, John Gregson and Jennifer Rogers.</p>
 </div>
-<div class="section" id="matrices">
-<h2>Matrices<a class="headerlink" href="#matrices" title="Permalink to this headline">¶</a></h2>
-<p>Searle S.R. <span class="math notranslate nohighlight">\(\&amp;\)</span>  Khuri A.I. (2017) Matrix Algebra useful for statistics. Second edition. John Wiley <span class="math notranslate nohighlight">\(\&amp;\)</span> Sons</p>
+<div class="section" id="typos-corrections-and-questions">
+<h2>Typos, corrections and questions<a class="headerlink" href="#typos-corrections-and-questions" title="Permalink to this headline">¶</a></h2>
+<p>Inevitably there will be some typos in these notes. Please do let us know any you spot (at: <a class="reference external" href="mailto:mschds&#37;&#52;&#48;lshtm&#46;ac&#46;uk">mailto:mschds<span>&#64;</span>lshtm<span>&#46;</span>ac<span>&#46;</span>uk</a>) and we will correct them.</p>
+<p>Enjoy!</p>
+<div class="toctree-wrapper compound">
+</div>
 </div>
 </div>
 
@@ -354,7 +342,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="Solutions.html" title="previous page">Solution to quizzes</a>
+    <a class='right-next' id="next-link" href="mr1_functions.html" title="next page">Functions, exponential and logarithm rules</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
