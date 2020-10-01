@@ -16,6 +16,8 @@
 # ## Typos, corrections and questions 
 # 
 # Inevitably there will be some typos in these notes. Please do let us know any you spot (at: <mschds@lshtm.ac.uk>) and we will correct them. 
+# 
+# Note: Some corrections made, 1 Oct 2020. Thanks for all your feedback so far.
 
 # Enjoy! 
 
