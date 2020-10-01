@@ -232,15 +232,9 @@ ans1 = {1:2, 2:3, 3:1, 4:2, 5:3, 6:2, 7:1, 8:3, 9:3, 10:2, 11:4, 12:4, 13:3, 14:
 qs1 = {"Q1_" + str(i+1): mcq4(ans1[i+1]) for i in range(16)}  
 
 
-# In[6]:
-
-
-create_multipleChoice_widget('Answer',[1,2,3,4],3)
-
-
 # Quiz 2: Differentiation and Integration
 
-# In[7]:
+# In[6]:
 
 
 ## Store answers in a dictionary
@@ -252,7 +246,7 @@ qs2 = {"Q2_" + str(i+1): mcq4(ans2[i+1]) for i in range(13)}
 
 # Quiz 3: Matrices
 
-# In[8]:
+# In[7]:
 
 
 ## Store answers in a dictionary
@@ -264,7 +258,7 @@ qs3 = {"Q3_" + str(i+1): mcq4(ans3[i+1]) for i in range(14)}
 
 # Quiz 4: Combinatorics
 
-# In[9]:
+# In[8]:
 
 
 ## Store answers in a dictionary
@@ -276,7 +270,7 @@ qs4 = {"Q4_" + str(i+1): mcq4(ans4[i+1]) for i in range(5)}
 
 # Quiz 5: Probability
 
-# In[10]:
+# In[9]:
 
 
 ## Store answers in a dictionary
@@ -288,7 +282,7 @@ qs5 = {"Q5_" + str(i+1): mcq4(ans5[i+1]) for i in range(10)}
 
 # Quiz 6: Probability theorems
 
-# In[11]:
+# In[10]:
 
 
 ## Store answers in a dictionary
@@ -300,7 +294,7 @@ qs6 = {"Q6_" + str(i+1): mcq4(ans6[i+1]) for i in range(3)}
 
 # Quiz 7: Discrete random variables
 
-# In[12]:
+# In[11]:
 
 
 ## Store answers in a dictionary
@@ -312,7 +306,7 @@ qs7 = {"Q7_" + str(i+1): mcq4(ans7[i+1]) for i in range(14)}
 
 # Quiz 8: Continuous random variables
 
-# In[13]:
+# In[12]:
 
 
 ## Store answers in a dictionary
@@ -324,7 +318,7 @@ qs8 = {"Q8_" + str(i+1): mcq4(ans8[i+1]) for i in range(6)}
 
 # Quiz 9: Correlation and covariance
 
-# In[14]:
+# In[13]:
 
 
 ## Store answers in a dictionary
@@ -336,7 +330,7 @@ qs9 = {"Q9_" + str(i+1): mcq4(ans9[i+1]) for i in range(4)}
 
 # Quiz 10: More complex questions
 
-# In[15]:
+# In[14]:
 
 
 ## Store answers in a dictionary
